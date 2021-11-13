@@ -1,0 +1,14 @@
+/* Fonts */
+@import url("./fonts/index.css");
+
+:root {
+  --font-family: "Quicksand", sans-serif;
+  --bg: #130036;
+  --txt: #ffffff;
+}
+
+body {
+  background: var(--bg);
+  color: var(--txt);
+  font-family: var(--font-family);
+}

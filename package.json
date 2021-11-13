@@ -1,0 +1,22 @@
+{
+  "name": "xoniaapp-website",
+  "private": true,
+  "author": "Aelpxy",
+  "description": "Official Xonia Website Source",
+  "scripts": {
+    "dev": "next dev",
+    "export": "next build && next export",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "12.0.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-next": "12.0.3"
+  }
+}
